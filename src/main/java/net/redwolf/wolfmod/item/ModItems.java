@@ -14,7 +14,8 @@ public class ModItems {
     public static final Item COPPER_SWORD = registerItem("copper_sword", new SwordItem(ModToolMaterial.COPPER, 3, -2.4f, new FabricItemSettings().group(ModItemGroup.COPPERTOOL).maxCount(1)));
     public static final Item COPPER_SHOVEL = registerItem("copper_shovel", new ShovelItem(ModToolMaterial.COPPER, 1, -3f, new FabricItemSettings().group(ModItemGroup.COPPERTOOL).maxCount(1)));
     public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe", new ModPickaxeItem(ModToolMaterial.COPPER, 1, -2.8f, new FabricItemSettings().group(ModItemGroup.COPPERTOOL).maxCount(1)));
-    public static final Item COPPER_HOE = registerItem("copper_hoe", new Item(new FabricItemSettings().group(ModItemGroup.COPPERTOOL)));
+    public static final Item COPPER_AXE = registerItem("copper_axe", new ModAxeItem(ModToolMaterial.COPPER, 5, -3.2f, new FabricItemSettings().group(ModItemGroup.COPPERTOOL).maxCount(1)));
+    public static final Item COPPER_HOE = registerItem("copper_hoe", new ModHoeItem(ModToolMaterial.COPPER, -2, -1f, new FabricItemSettings().group(ModItemGroup.COPPERTOOL).maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {
