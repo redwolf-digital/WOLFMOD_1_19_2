@@ -1,6 +1,7 @@
 package net.redwolf.wolfmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.redwolf.wolfmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +11,8 @@ public class WolfMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
 
 	}
 }

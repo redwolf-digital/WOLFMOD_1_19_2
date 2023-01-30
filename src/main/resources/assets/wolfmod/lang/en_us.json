@@ -1,0 +1,8 @@
+{
+  "item.wolfmod.copper_sword" : "Copper Sword",
+  "item.wolfmod.copper_shovel" : "Copper Shovel",
+  "item.wolfmod.copper_pickaxe" : "Copper Pickaxe",
+  "item.wolfmod.copper_hoe" : "Copper Hoe",
+
+  "itemGroup.wolfmod.coppertool" : "[WOLFMOD] - Copper tools"
+}
