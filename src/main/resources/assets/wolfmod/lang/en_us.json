@@ -10,5 +10,8 @@
   "item.wolfmod.copper_leggings" : "Copper Leggings",
   "item.wolfmod.copper_boots" : "Copper Boots",
 
-  "itemGroup.wolfmod.coppertool" : "[WOLFMOD] - Copper tools"
+  "item.wolfmod.hot_spring_water_bucket" : "Hot spring water bucket",
+
+  "itemGroup.wolfmod.coppertool" : "[WOLFMOD] - Copper tools",
+  "itemGroup.wolfmod.wolfdecoration" : "[WOLFMOD] - Decoration"
 }
