@@ -1,16 +1,9 @@
 {
-  "item.wolfmod.copper_sword" : "Copper Sword",
-  "item.wolfmod.copper_shovel" : "Copper Shovel",
-  "item.wolfmod.copper_pickaxe" : "Copper Pickaxe",
-  "item.wolfmod.copper_axe" : "Copper Axe",
-  "item.wolfmod.copper_hoe" : "Copper Hoe",
-
-  "item.wolfmod.copper_helmet" : "Copper Helmet",
-  "item.wolfmod.copper_chestplate" : "Copper Chestplate",
-  "item.wolfmod.copper_leggings" : "Copper Leggings",
-  "item.wolfmod.copper_boots" : "Copper Boots",
-
   "item.wolfmod.hot_spring_water_bucket" : "Hot spring water bucket",
+
+  "block.wolfmod.blossom_leaves" : "Blossom leaves",
+  "block.wolfmod.brown_leaves" : "Brown leaves",
+  "block.wolfmod.dark_amber_leaves" : "Dark amber leaves",
 
   "itemGroup.wolfmod.coppertool" : "[WOLFMOD] - Copper tools",
   "itemGroup.wolfmod.wolfdecoration" : "[WOLFMOD] - Decoration"

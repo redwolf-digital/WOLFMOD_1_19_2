@@ -1,8 +1,9 @@
 package net.redwolf.wolfmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.redwolf.wolfmod.block.ModBlocks;
 import net.redwolf.wolfmod.fluid.ModFluids;
-import net.redwolf.wolfmod.item.ModItems;
+import net.redwolf.wolfmod.util.ModFlammableBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,8 +13,8 @@ public class WolfMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		ModItems.registerModItems();
+		ModBlocks.registerModBlock();
+		ModFlammableBlocks.registerFlammableBlocks();
 		ModFluids.register();
 
 	}
