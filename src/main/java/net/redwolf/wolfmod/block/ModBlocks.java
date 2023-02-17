@@ -18,6 +18,12 @@ public class ModBlocks {
     public static final Block BLOSSOM_LEAVES = registerBlock("blossom_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.WOLFDECORATION);
     public static final Block BROWN_LEAVES = registerBlock("brown_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.WOLFDECORATION);
     public static final Block DARK_AMBER_LEAVES = registerBlock("dark_amber_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.WOLFDECORATION);
+    public static final Block AMBER_LEAVES = registerBlock("amber_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.WOLFDECORATION);
+    public static final Block MAPLE_LEAVES = registerBlock("maple_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.WOLFDECORATION);
+    public static final Block ORANGE_LEAVES = registerBlock("orange_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.WOLFDECORATION);
+    public static final Block YELLOW_LEAVES = registerBlock("yellow_leaves", new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.WOLFDECORATION);
+
+
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

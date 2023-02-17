@@ -4,6 +4,12 @@
   "block.wolfmod.blossom_leaves" : "Blossom leaves",
   "block.wolfmod.brown_leaves" : "Brown leaves",
   "block.wolfmod.dark_amber_leaves" : "Dark amber leaves",
+  "block.wolfmod.amber_leaves" : "Amber leaves",
+  "block.wolfmod.maple_leaves" : "Maple leaves",
+  "block.wolfmod.orange_leaves" : "Orange leaves",
+  "block.wolfmod.yellow_leaves" : "Yellow leaves",
+
+
 
   "itemGroup.wolfmod.coppertool" : "[WOLFMOD] - Copper tools",
   "itemGroup.wolfmod.wolfdecoration" : "[WOLFMOD] - Decoration"
