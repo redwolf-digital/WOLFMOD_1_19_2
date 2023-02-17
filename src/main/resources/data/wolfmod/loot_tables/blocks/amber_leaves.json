@@ -1,12 +1,22 @@
 {
-  "type" : "minecraft:block",
-  "pools" : [
+  "pools": [
     {
-      "rolls" : 1,
-      "entries" : [
+      "rolls": 1,
+      "entries": [
         {
-          "type" : "minecraft:item",
-          "name" : "wolfmod:amber_leaves"
+          "type": "minecraft:item",
+          "name": "wolfmod:amber_leaves"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:shears"
+            ],
+            "count": 1
+          }
         }
       ]
     }
